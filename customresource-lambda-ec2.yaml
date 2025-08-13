@@ -193,7 +193,7 @@ Resources:
   DemoInstance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0c02fb55956c7d316
+      ImageId: ami-0144277607031eca2
       InstanceType: t2.micro
       IamInstanceProfile: !Ref EC2InstanceProfile
       UserData:
